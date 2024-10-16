@@ -28,5 +28,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.vendored_frameworks = 'opencv2.framework'
   s.public_header_files = "opencv2.framework/Headers/*.h"
+  s.description  = "opencv2 lib"
   
 end
